@@ -70,13 +70,13 @@ const RAGChatbot = ({ className }: RAGChatbotProps) => {
 
   // Simulate Gemini API call with RAG context
   const callGeminiAPI = async (userMessage: string, relevantDocs: typeof mockRAGDocuments) => {
-    /**
+    
      * GEMINI API INTEGRATION POINT
      * Replace this mock implementation with actual Gemini API call
      * 
      * Example implementation:
      * 
-     * const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY_HERE'; // ⚠️ Add your Gemini API key here
+     * const GEMINI_API_KEY = 'AIzaSyBR2bDkLJCyHZk7gBFjgoEApoq3Fz2sI8w'; // ⚠️ Add your Gemini API key here
      * 
      * const contextPrompt = `
      * You are a helpful AI assistant. Use the following context to answer the user's question:
@@ -105,7 +105,7 @@ const RAGChatbot = ({ className }: RAGChatbotProps) => {
      * 
      * const data = await response.json();
      * return data.candidates[0].content.parts[0].text;
-     */
+     
 
     // Mock response for demo - Replace with actual Gemini API call above
     return new Promise<string>((resolve) => {
